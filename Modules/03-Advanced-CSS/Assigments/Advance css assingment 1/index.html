@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .container-1 {
+            display: flex;
+            font-weight: bold;
+        }
+
+        .container-1 header {
+            color: blue;
+            font-size: 30px;
+        }
+
+        .container-1 h5 {
+            text-align: left;
+        }
+
+
+
+        .container-2 {
+            display: flex;
+        }
+
+        .blog-card {
+            width: 450px;
+            height: 400px;
+            border: 1px solid black;
+            background-color: white;
+            margin: 10px;
+        }
+
+        .blog-card img {
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text img {
+            height: 10px;
+            width: 10px;
+            margin: 0px;
+
+        }
+
+        span {
+            color: red;
+            font-size: smaller;
+        }
+
+        .blog-title {
+            font-size: large;
+        }
+
+        .a {
+            text-align: center;
+            color: aqua;
+        }
+
+        .dateAndTime {
+            color: aqua;
+        }
+
+        .text-block {
+            font-size: 10px;
+
+        }
+
+
+
+        @media (max-width: 600px) {
+
+            .container-1 {
+                flex-direction: column;
+                width: 100%;
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .container-2 {
+                flex-direction: column;
+                width: 100%;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-1">
+        <header>Our blog</header>
+        <br>
+        <h5>Read about technology, getting more information to help you in your learning journey.</h5>
+        <img src="https://media.istockphoto.com/photos/the-word-blog-arranged-from-wooden-blocks-placed-on-a-white-computer-picture-id1338011657?b=1&k=20&m=1338011657&s=170667a&w=0&h=QxvXC8F7nKbux4YekofifQ3cvucJuLVtXaGdxu6ZLHU="
+            alt="">
+    </div>
+
+    <!-- container -->
+    <div class="container-2">
+        <!-- box -->
+        <div class="blog-card">
+            <img src="https://www.business2community.com/wp-content/uploads/2016/11/20178074_ml-e1423739122500-600x335.jpg"
+                alt="">
+            <div class="text">
+                <span class="w3-tag">Career change</span>
+                <span class="dateAndTime">10/09/2022 05:00pm</span>
+
+                <br>
+                <a href="#" class="blog-title">Would like to switch your career into IT?</a>
+                <br>
+                <p>Here Sigma School help you transform your career!</p>
+                <a href="#" class="blog-text">Read More</a>
+                <div class="blog-author-image">
+                    <img src="https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/116871195_918365631984560_7773169309672956119_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFDf7jLb-RcBM32HputS8vy0N9YDFga8ezQ31gMWBrx7EL1RlHWjwK4kOuMlOTgNbZ_99qMU9WO1fTnr-GkB_Sx&_nc_ohc=-y2SkVjUBU0AX9CHRPu&tn=uiq85saKpLYa4ioX&_nc_ht=scontent.fpen1-1.fna&oh=00_AT_tzzGo9iYgPv3C2N72t5IY_IrHW1N1KyE4EoPLb7ByPA&oe=6344313C"
+                        alt="">
+                </div>
+                <div class="text-block">Lim Chin Hong</div>
+
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="https://cdn1.careeraddict.com/uploads/article/60516/job-search-land-first-job.png" alt="">
+            <div class="text">
+                <span class="w3-tag">Job</span>
+                <span class="dateAndTime">11/09/2022 03:00pm</span>
+                <br>
+                <a href="#" class="blog-title">Learn how to land a job as junior software developer role in Tech?</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, illum.</p>
+                <a href="#" class="blog-text">Read More</a>
+                <div class="blog-author-image">
+                    <img src="https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/116871195_918365631984560_7773169309672956119_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFDf7jLb-RcBM32HputS8vy0N9YDFga8ezQ31gMWBrx7EL1RlHWjwK4kOuMlOTgNbZ_99qMU9WO1fTnr-GkB_Sx&_nc_ohc=-y2SkVjUBU0AX9CHRPu&tn=uiq85saKpLYa4ioX&_nc_ht=scontent.fpen1-1.fna&oh=00_AT_tzzGo9iYgPv3C2N72t5IY_IrHW1N1KyE4EoPLb7ByPA&oe=6344313C"
+                        alt="">
+                </div>
+                <div class="text-block">Lim Chin Hong</div>
+
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="https://www.aberdeen.com/wp-content/uploads/2015/11/AdobeStock_80324997.jpeg" alt="">
+            <div class="text">
+                <span class="w3-tag">Learning</span>
+                <span class="dateAndTime">11/09/2022 05:00pm</span>
+                <br>
+                <a href="#" class="blog-title">What we are difference from University and bootcamp?</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, illum.</p>
+                <a href="#" class="blog-text">Read More</a>
+                <div class="blog-author-image">
+                    <img src="https://scontent.fpen1-1.fna.fbcdn.net/v/t1.6435-9/116871195_918365631984560_7773169309672956119_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFDf7jLb-RcBM32HputS8vy0N9YDFga8ezQ31gMWBrx7EL1RlHWjwK4kOuMlOTgNbZ_99qMU9WO1fTnr-GkB_Sx&_nc_ohc=-y2SkVjUBU0AX9CHRPu&tn=uiq85saKpLYa4ioX&_nc_ht=scontent.fpen1-1.fna&oh=00_AT_tzzGo9iYgPv3C2N72t5IY_IrHW1N1KyE4EoPLb7ByPA&oe=6344313C"
+                        alt="">
+                </div>
+                <div class="text-block">Lim Chin Hong</div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
