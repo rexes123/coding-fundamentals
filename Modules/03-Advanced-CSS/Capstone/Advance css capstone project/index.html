@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation bar</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    p{
+      margin-bottom: 10px;
+        }
+
+    .navigation {
+      list-style: none;
+      overflow: auto; 
+      margin: 0px;
+      padding: 0px;
+      border:transparent;
+      background-color:white;
+      
+    }
+    
+
+    .navigation li {
+      float: left;
+      margin: 5px;
+      padding:5px;
+    } 
+    svg{
+      margin-bottom: 20px;
+        }
+
+    li a {
+      text-decoration: none;
+      margin:0;
+      padding: 0;
+      color: black;
+    }
+
+    li a:hover{
+      color: brown;
+    }
+
+    li a:active{
+      color: coral;
+    }
+
+    .log a {
+      float: right;
+      text-decoration: none;
+      padding: 0px;
+      margin-top: 10px;
+      color: black;
+    }
+
+    .log a:hover{
+      color: brown;
+    }
+
+    .log a:active{
+      color: coral;
+    }
+
+    .w-6 {
+      height: 20px;
+      width: 20px;
+      margin-top: 20px;
+      float: left;
+      top: 10px;
+    }
+
+    .header {
+      height: 100px;
+      width: auto;
+      background-color: burlywood;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .contact-card {
+      display: flex;
+      background-color:wheat;
+
+    }
+
+    .container-1 {
+      margin:0;
+      padding: 0;
+      width: 30%;
+      border:transparent;
+
+
+    }
+
+    .container-2 {
+      margin: 100px;
+    }
+
+
+    
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:brown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;s
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:brown;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.phone{
+  display: flex;
+}
+
+.email{
+  display: flex;
+}
+
+.socialmedia-icon{
+  display: flex;
+}
+
+.fa a{
+  margin: 10px;
+}
+
+.facebook a{
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+
+}
+.github a{
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+
+.twitter a{
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+
+}
+    
+  </style>
+</head>
+
+<body>
+
+  <ul class="navigation"> 
+<p>    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+  class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round"
+    d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /> 
+</svg> </p>
+    <li><a href="#">Changelong</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Partners</a></li>
+    <li><a href="#">News</a></li>
+    <div class="log"><a href="#">Login</a>
+    </div>
+  </ul>
+
+  <div class="header">
+    <br>
+    <h1>Get in touch </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum quos minus et porro quidem labore
+      perspiciatis. Consectetur, quaerat alias.</p>
+  </div>
+
+  <div class="contact-card">
+    <div class="container-1">
+      <br>
+      <h1>Contact information</h1>
+      <br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo vero porro nam quos nihil
+        voluptatibus quis architecto facilis itaque.</p>
+
+        <br>
+
+
+        <div class="phone">
+          <div class="material-icons">phone</div>
+          <div class="contactnumber"> +60167747633</div>
+      </div>
+        
+        <br>
+        
+       <div class="email">
+        <div class="material-icons">email</div>
+        <div class="emailAddress"> rexes_123@hotmail.com</div>
+       </div>
+
+       <br>
+
+       <div class="socialmedia-icon">
+        <div class="facebook">
+          <a href="#" class="fa fa-facebook"></a>
+         </div>
+  
+         <div class="github">
+          <a href="#" class="fa fa-github"></a>
+         </div>
+  
+         <div class="github">
+          <a href="#" class="fa fa-twitter"></a>
+         </div>
+       </div>
+
+
+
+    </div>
+
+    <div class="container">
+      <form>
+        <h1>Give us know your progress</h1>
+        <br>
+        <label for="fname">First Name</label>
+        <input type="text" class="fname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" class="lname" placeholder="Your last name..">
+
+        <label for="lname">Email</label>
+        <input type="text" class="lname" placeholder="Your email..">
+    
+        <label for="country">Coding progress(fundamental course)</label>
+        <select name="progress" id="progress">
+          <option value="Html">Html</option>
+          <option value="Css">Css</option>
+          <option value="Advanced Css">Advanced Css</option>
+          <option value="Javascript">Javascript</option>
+          <option value="Computational thinking">Computational thinking</option>
+          <option value="Practise Project 1 - Porfolio">Practise Project 1 - Porfolio</option>
+          <option value="Computational thinking">Computational thinking</option>
+          <option value="DOM Manipulation">DOM Manipulation</option>
+          <option value="Object-oriented Programming">Object-oriented Programming</option>
+          <option value="APIs">APIs</option>
+          <option value="Practise Project 2 - Spotify Clone">Practise Project 2 - Spotify Clone</option>
+          <option value="Practise Project 3 - Dino Game">Practise Project 3 - Dino Game</option>
+          <option value="Command Lines(Optional)">Command Lines(Optional)</option>
+          <option value="Github">Github</option>
+          <option value="Git">Git</option>
+          <option value="Final Assingment & Project">Final Assingment & Project</option>
+
+
+
+
+          
+
+
+
+        </select>
+        </select>
+    
+        <label for="Feedback">Feedback</label>
+        <textarea class="feedbacks"  placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
