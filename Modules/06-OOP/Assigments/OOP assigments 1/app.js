@@ -78,6 +78,5 @@ divide(numToDivide) {
 const calculator = new Calculator(0)
 
 calculator.add(5).subtract(3).multiply(6).divide(3)
-// calculator.subtract(5)
 
 calculator.value()
