@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+    <!-- In case doing query selector, you need to wait html to load first, 
+    so you can put defer.
+    Basically, defer means that i want to wait all the document to be ready 
+    only i want to start getting my documents -->
+    <script src="/app.js" defer></script>
+</head> 
+<body>
+    <div class="container">
+        <div class="search-area">
+            <input type="text" name="" id="username" placeholder="Enter Github Username" autocomplete="off">
+            <button onclick="getUsers();">Get Users</button>
+        </div>
+        <div class="output-container" id="output">
+            <div class="profile" id="profile"></div>
+            <div class="username">
+                <h1 id="name"></h1>
+            </div>
+            <div class="bio">
+                <p id="bio"></p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="followers"></li>
+                    <li id="following"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
