@@ -1,0 +1,29 @@
+.Catstagram{
+    background-color:black;
+    color: white
+}
+
+.Feed{
+    background-color: white ;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    position:relative;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container{
+    height:fit-content;
+    width:50%;
+    margin:0px;
+    padding:0px;
+    display:contents;
+    /* flex-wrap: wrap;
+    flex-basis: 33.333333%;
+    gap: 1rem;
+    justify-content: space-evenly; */
+} 
