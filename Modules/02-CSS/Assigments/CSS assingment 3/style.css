@@ -1,0 +1,31 @@
+.menu {    
+  /* Style for menu button */
+  position: relative;
+}
+
+.submenu {    
+  /* Hide submenu */
+  position:relative;
+  display:grid;
+  border: transparent;
+  background-color: rgb(220,220,220);
+  width: 60%;
+}
+/* .menu:hover .submenu {     */
+  /* Show submenu on hover */
+/* } */
+
+.submenu-item-1{
+    padding: 10px;
+}
+.submenu-item-2{
+    padding: 10px;
+}
+
+.menu:hover .submenu-item-1:hover{
+    background-color:rgb(169,169,169);
+}
+
+.menu:hover .submenu-item-2:hover{
+    background-color:rgb(169,169,169);
+}
