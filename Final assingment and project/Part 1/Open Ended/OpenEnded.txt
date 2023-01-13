@@ -1,0 +1,27 @@
+1) To repeat a same thing by using loop. For example,
+
+ n=5
+ for (let i=0; i < n; i++){
+    console.log('Javascript')
+ }
+
+So, the output will be show 5 times the Javascript in terminal.
+
+2) Console.log is print the information to console.log() while return is used for returning value from a function.For example:
+
+function alphabet(a,b){
+    return a*b
+}
+console.log(alphabet(2,3))
+
+3) A truthy value is true in boolean context, while false value is false in boolen context
+
+4) The web browser connects to the web server and send an HTTP request for the desired web page.
+
+5) Website 
+
+
+
+
+
+ 
