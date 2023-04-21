@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  background-image: url(/img/—Pngtree—glassmorphism\ wave\ effect\ abstract\ background_1592642.png);
+}
+
+/* Center the registration form */
+#registration-form {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the form header */
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 36px;
+}
+
+/* Style the form field */
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+}
+
+input[type='checkbox'] {
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #4caf48;
+}
+
+/* style the password show checkbox */
+#password+input[type="checkbox"] {
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+input:valid {
+  border: 1px solid #ccc
+}
