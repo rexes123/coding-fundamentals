@@ -1,0 +1,139 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  /* background-color: #080710; */
+  background-image:url(/img/rainbox\ background\ image.webp)
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  /* border: 1px solid black; */
+  display: flex;
+  margin: auto;
+  border-radius: 100%;
+}
+
+.background .shape {
+  height: 100px;
+  width: 100px;
+  border: none;
+  position: relative;
+  border-radius: 50%;
+}
+
+/* Css Gradient */
+/* Linear Gradient goes down/ up/ left/ righ/ diagonally */
+/* Radial Gradient defined by center */
+/* Conic gradient (rotated around a center point) */
+
+.shape:first-child {
+  background: linear-gradient(
+    #1845ad,
+      #23a2f6);
+      right: -30px;
+}
+
+.shape:last-child {
+  background: linear-gradient(
+    #1845ad,
+      #23a2f6);
+    left: -30px;
+    top: 400px;
+}
+
+.container {
+  margin: auto;
+  max-width: 220px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* Style the form */
+form {
+  /* display: flex;
+  flex-direction: column; */
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  backdrop-filter: blur(10px);
+
+  /* box-shadow: 0 0 40px rgba(8,7,16,0.6); */
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  font-size: 18px;
+  width: 330px;
+  display: block;
+}
+
+input[type="checkbox"]{
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  color: black;
+  }
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #ffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+}
+
+#register-button {
+  background-color: #008CBA;
+}
+
+/* style the error message */
+.alert {
+  background-color: #f44336;
+  color: #ffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+
+}
